@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>About Us</title>
+    <style>
+      h1,
+      h2 {
+        text-align: center;
+        color: dodgerblue;
+      }
+      .team-grid {
+        display: grid;
+        grid-template-columns: repeat(
+          auto-fill,
+          minmax(200px, 1fr)
+        );
+        gap: 20px; 
+        padding: 20px;
+      }
+
+      .team-member {
+        text-align: center; 
+        background-color: #f9f9f9; 
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+      }
+
+      .team-member img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%; 
+      }
+
+      .member-name {
+        margin-top: 10px; 
+        font-size: 16px; 
+        color: #333; 
+      }
+      html,
+      body {
+       
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column; 
+      }
+
+      .home {
+        flex: 1; 
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <section class="home">
+      <header>
+        <a href="index.html" class="logo"> <img src="logos/logo6.png" /></a>
+
+        <nav class="navbar">
+          <a href="index.html">Home</a>
+          <a href="aboutUs.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contactUs.html">Contact Us</a>
+        </nav>
+
+        <div class="menubtn">
+          <img src="images/menu.svg" alt="">
+        </div>
+        
+      </header>
+
+      <div class="about-section">
+        <h1>About Us</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod
+          malesuada.
+        </p>
+      </div>
+
+      <div class="mission">
+        <h2>Our Mission</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+
+      <div class="team">
+        <h2>Meet Our Team</h2>
+        <div class="team-grid">
+          <div class="team-member">
+            <img src="images/pic-1.png" alt="Member Name" />
+            <p class="member-name">Mohlankana Tsoai</p>
+          </div>
+          <div class="team-member">
+            <img src="images/pic-3.png" alt="Member Name" />
+            <p class="member-name">Hamilton Masipa</p>
+          </div>
+          <div class="team-member">
+            <img src="images/pic-2.png" alt="Member Name" />
+            <p class="member-name">Tumisang Thabethe</p>
+          </div>
+          <div class="team-member">
+            <img src="images/pic-2.png" alt="Member Name" />
+            <p class="member-name">Thembelihle Maluka</p>
+          </div>
+          <div class="team-member"></div>
+            <img src="images/pic-1.png" alt="Member Name" />
+            <p class="member-name">Jane Doe</p>
+          </div>
+          <!-- Add more team members as needed -->
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="copy">
+        <div class="social-icon">
+          <a href="https://www.facebook.com" target="_blank"
+            ><i class='bx bxl-facebook'></i></i
+          ></a>
+          <a href="https://www.twitter.com" target="_blank"
+            ><i class='bx bxl-twitter' ></i></i
+          ></a>
+          <a href="https://www.linkedin.com" target="_blank"
+            ><i class='bx bxl-linkedin' ></i></i
+          ></a>
+          <a href="https://www.instagram.com" target="_blank"
+            ><i class='bx bxl-instagram' ></i></i
+          ></a>
+
+        </div>
+        
+        copy; BOPAPE EDGER INCORPORATED | 2024 All rights reserved
+      </div>
+    </footer>
+
+    <a href="#" class="gotop"><img src="images/arrow-up.svg" alt="" /></a>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
